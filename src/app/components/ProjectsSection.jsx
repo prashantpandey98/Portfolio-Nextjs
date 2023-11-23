@@ -8,17 +8,19 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    description:
+      "Made a responsive Portfolio website using Next.js, scss and Tailwind Css. Used dynamic animations and framer-motion for better aesthetics.",
+    image: "/images/projects/portfolio.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/prashantpandey98/Portfolio-Nextjs",
     previewUrl: "/",
   },
   {
     id: 2,
     title: "Restaurant Website",
-    description: "Project 2 description",
-    image: "/images/projects/4.png",
+    description:
+      "A responsive and attractive UI for a food ordering website made using React.js and Bootstrap. Integrated a dynamic cart where we can add and remove dishes. Used Context API for handling complex cart logic and state.",
+    image: "/images/projects/meal.jpg",
     tag: ["All", "Web"],
     gitUrl:
       "https://github.com/prashantpandey98/Front-end-React/tree/main/Restaurant_App",
@@ -27,8 +29,9 @@ const projectsData = [
   {
     id: 3,
     title: "E-Mail Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
+    description:
+      "A mailing React application which keeps a track of your mails. It has 'Inbox', 'Outbox' which are managed by Redux and integrated with Firebase for authentication and storing data.",
+    image: "/images/projects/mailBox.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/prashantpandey98/mail-box",
     previewUrl: "https://u-mail-box-client.netlify.app/",
@@ -36,8 +39,9 @@ const projectsData = [
   {
     id: 4,
     title: "Expense Tracker Application",
-    description: "Project 4 description",
-    image: "/images/projects/2.png",
+    description:
+      "A very useful React application to keep a track of your daily expenses. We can add, delete and edit the expenses. Also has premium features where we can download the expenses and switch between dark and light mmode. Used Redux to manage the data and state of the components.",
+    image: "/images/projects/expense.jpg",
     tag: ["All", "Web"],
     gitUrl: " https://github.com/prashantpandey98/Expense-Tracker",
     previewUrl: "https://expense-manager-pro.netlify.app/",
@@ -45,8 +49,9 @@ const projectsData = [
   {
     id: 5,
     title: "E-Commerce Application",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
+    description:
+      "A scalable and user-specific E-Commerce application made using React, Bootstrap, CSS and Firebase api.",
+    image: "/images/projects/eCom.jpg",
     tag: ["All", "Web"],
     gitUrl:
       "https://github.com/prashantpandey98/E-Commerce-Website/tree/main/e-commerce-website",
@@ -55,8 +60,9 @@ const projectsData = [
   {
     id: 6,
     title: "Text-Utils App",
-    description: "Project 5 description",
-    image: "/images/projects/5.png",
+    description:
+      "A project using React.js that let's you modify and alter the entered texts in a number of ways.",
+    image: "/images/projects/textUtils.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/prashantpandey98/React_app-TextUtils",
     previewUrl: "https://text-playground.netlify.app/",
@@ -64,12 +70,13 @@ const projectsData = [
   {
     id: 7,
     title: "Spotify Main Page Clone",
-    description: "Project 7 description",
-    image: "/images/projects/6.png",
+    description:
+      "A simple and pixle perfect clone of spotify main page using vanilla CSS.",
+    image: "/images/projects/spotify.jpg",
     tag: ["All", "CSS"],
-    gitUrl: "/",
-    previewUrl:
+    gitUrl:
       "https://github.com/prashantpandey98/Projects/tree/main/Spotify%20MainPage",
+    previewUrl: "/images/projects/spotify.jpg",
   },
 ];
 
