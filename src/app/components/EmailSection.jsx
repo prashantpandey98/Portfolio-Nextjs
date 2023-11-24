@@ -24,7 +24,7 @@ const EmailSection = () => {
 
     window.location.href = `mailto:prashantpp000@gmail.com?subject=${
       data.email
-    }&body=Hi.${(<br />)} Message- ${data.message} (${data.email})`;
+    }&body=Hi.${(<br />)} ${data.message}.`;
     setEmailSubmitted(true);
 
     // const JSONdata = JSON.stringify(data);
