@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import GmailIcon from "../../../public/gmail-icon.svg";
+import InstaIcon from "../../../public/insta-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -63,7 +65,7 @@ const EmailSection = () => {
           {" "}
           I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
+          get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/prashantpandey98" target="_blank">
@@ -73,6 +75,12 @@ const EmailSection = () => {
             href="https://www.linkedin.com/in/prashantpandey98"
             target="_blank">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
+          </Link>
+          <Link href="mailto:prashantpp000@gmail.com" target="_blank">
+            <Image src={GmailIcon} alt="Gmail Icon" />
+          </Link>
+          <Link href="https://www.instagram.com/_prashhhant/" target="_blank">
+            <Image src={InstaIcon} alt="Instagram Icon" />
           </Link>
         </div>
       </div>

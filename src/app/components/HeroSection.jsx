@@ -10,8 +10,8 @@ const HeroSection = () => {
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ x: -100, opacity: 0, scale: 0.5 }}
+          animate={{ x: 0, opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
           <h1 className="text-white mb-4 text-4xl sm:text-3xl lg:text-7xl lg:leading-normal font-extrabold">
@@ -36,8 +36,8 @@ const HeroSection = () => {
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Hi, Welcome to my Portfolio!! Glad to see you here. I am an
             enthusiastic web developer who likes to keep learning and trying to
-            make the life of other people easier.... cause that&apos;s what engineers
-            do. XD
+            make the life of other people easier.... cause that&apos;s what
+            engineers do. XD
           </p>
           <div>
             <Link
@@ -56,15 +56,15 @@ const HeroSection = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ x: 100, opacity: 0, scale: 0.5 }}
+          animate={{ x: 0, opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/picBook.png"
               alt="hero image"
-              className="absolute w-[200px] h-[220px] lg:w-[300px] lg:h-[350px] transform -translate-x-1/2 -translate-y-1/2 top-1/3 left-1/2"
+              className="absolute w-[200px] h-[250px] lg:w-[300px] lg:h-[380px] transform -translate-x-1/2 -translate-y-1/2 top-1/3 left-1/2"
               width={300}
               height={300}
             />

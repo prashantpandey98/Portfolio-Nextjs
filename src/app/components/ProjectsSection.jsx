@@ -13,7 +13,7 @@ const projectsData = [
     image: "/images/projects/portfolio.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/prashantpandey98/Portfolio-Nextjs",
-    previewUrl: "/",
+    previewUrl: "https://prashantpandey98.vercel.app/",
   },
   {
     id: 2,
@@ -94,7 +94,7 @@ const ProjectsSection = () => {
   );
 
   const cardVariants = {
-    initial: { y: 50, opacity: 0 },
+    initial: { y: 70, opacity: 0 },
     animate: { y: 0, opacity: 1 },
   };
 
