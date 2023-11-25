@@ -15,15 +15,16 @@ const EmailSection = () => {
       subject: e.target.subject.value,
       message: e.target.message.value,
     };
+
+    window.location.href = `mailto:prashantpp000@gmail.com?subject=${data.subject}&body=${data.message}.`;
+    setEmailSubmitted(true);
+
     // const mailtoLink = `mailto:prashantpp000@gmail.com?subject=${encodeURIComponent(
     //   data.subject
     // )}&body=${encodeURIComponent(data.message)}`;
 
     // window.location.href = mailtoLink;
     // setEmailSubmitted(true);
-
-    window.location.href = `mailto:prashantpp000@gmail.com?subject=${data.email}&body=${data.message}.`;
-    setEmailSubmitted(true);
 
     // const JSONdata = JSON.stringify(data);
     // const endpoint = "/api/send";
